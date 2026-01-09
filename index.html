@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwichak's Profile</title>
+</head>
+
+<body>
+    <header>
+        <h1>Suwichak's Profile</h1>
+        <p>งานวิชา CP151 Web Programming การสร้างเว็บเพจ 1 หน้า ด้วย HTML </p>
+    </header>
+
+    <nav>
+        <b><a href="#ข้อมูลส่วนตัว">ข้อมูลส่วนตัว</a>&nbsp;&nbsp;</b>
+        <b><a href="#ความสนใจหรือทักษะ">ความสนใจหรือทักษะ</a>&nbsp;&nbsp;</b>
+        <b><a href="#ตารางเรียน">ตารางเรียน</a>&nbsp;&nbsp;</b>
+        <b><a href="#ช่องทางการติดต่อ">ช่องทางการติดต่อ</a></b>
+    </nav>
+    <br><br>
+    <main>
+        <section id="ข้อมูลส่วนตัว">
+            <img src="68102010218.jpg" width="230"  alt="Suwichak Image">
+
+            <h2>ข้อมูลส่วนตัว</h2>
+            <p>
+                <b>ชื่อ:</b> นายสุวิจักขณ์ วงค์น้อย<br>
+                <b>ชื่อเล่น:</b> คิง<br>
+                <b>อายุ:</b> 19 ปี<br>
+                <b>วันเกิด:</b> 9 พฤศจิกายน พ.ศ.2549<br>
+                <b>รหัสนิสิต:</b> 68102010218<br>
+                <b>ศึกษาที่:</b> มหาวิทยาลัยศรีนครินทรวิโรฒ<br>
+                <b>คณะ:</b> วิทยาศาสตร์<br>
+                <b>สาขา:</b> วิทยาการคอมพิวเตอร์<br><br>
+            </p>
+        </section>
+
+        <section id="ความสนใจหรือทักษะ">
+            <h2>ความสนใจหรือทักษะ</h2>
+            <ul>
+                <li>กีตาร์</li>
+                <li>เล่นเกม</li>
+                <li>หมากรุก</li>
+                <li>บาสเกตบอล</li>
+                <li>พัฒนาทักษะโค้ด</li><br>
+            </ul>
+        </section>
+
+        <section id="ตารางเรียน">
+            <h2>ตารางเรียน</h2>
+            <table border="1">
+                <thead>
+                    <tr align="center">
+                        <th>วัน/คาบ</th>
+                        <th>1</th>
+                        <th>2</th>
+                        <th>3</th>
+                        <th>4</th>
+                        <th>5</th>
+                        <th>6</th>
+                        <th>7</th>
+                        <th>8</th>
+                        <th>9</th>
+                        <th>10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr align="center" height="60">
+                        <td><strong>จันทร์</strong></td>
+                        <td colspan="4">CP112 B01<br> (01-10-0110/1)<br> (Time: 8.30-12.20)</td>
+                    </tr>
+                    <tr align="center" height="60">
+                        <td><strong>อังคาร</strong></td>
+                        <td colspan="4">CP151 B01<br> (01-10-0110/1)<br> (Time: 08.30-12.20)</td>
+                    </tr>
+                    <tr align="center" height="60">
+                        <td><strong>พุธ</strong></td>
+                        <td colspan="4">SWU196 B21<br> (01-35-0403E)<br> (Time: 08.30-12.20)</td>
+                        <td></td>
+                        <td colspan="4">SWU195 B21<br> (01-35-0403E)<br> (Time: 13.30-17.20)</td>
+                    </tr>
+                    <tr align="center" height="60">
+                        <td><strong>พฤหัสบดี</strong></td>
+                        <td colspan="4">ZEE04 B01<br> (01-14-0602B)<br> (Time: 08.30-12.20)</td>
+                        <td></td>
+                        <td colspan="2">ZEE04 B01<br> (01-14-0602B)<br> (Time: 13.30-15.20)</td>
+                    </tr>
+                    <tr align="center" height="60">
+                        <td><strong>ศุกร์</strong></td>
+                        <td colspan="4">SWU193 B49<br> (01-35-1304)<br> (Time: 08.30-12.20)</td>
+                        <td></td>
+                        <td colspan="4">SWU194 B49<br> (01-35-1304)<br> (Time: 13.30-17.20)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <br>
+        <section id="ช่องทางการติดต่อ">
+            <h2>ช่องทางการติดต่อ</h2>
+            <p><b>Email:</b> suwichak.kkk@g.swu.ac.th</p>
+
+            <form>
+                <h3>ส่งข้อความเพื่อติดต่อ</h3>
+                <label for="user_name">ชื่อผู้ติดต่อ:</label><br>
+                <input type="text" id="user_name" name="user_name"><br><br>
+
+                <label for="user_email">Email:</label><br>
+                <input type="text" id="user_email" name="user_email"><br><br>
+
+                <label for="contact_reason">เหตุผลที่ติดต่อ:</label><br>
+                <select id="contact_reason" name="contact_reason">
+                    <option value="friend">ทำความรู้จัก</option>
+                    <option value="work">ติดต่องาน</option>
+                </select><br><br>
+
+                <label for="message">ข้อความ:</label><br>
+                <textarea id="message" name="message" rows="4"></textarea><br><br>
+
+                <button type="submit">ส่งข้อความ</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <hr>
+        <p>&copy; 2026 นายสุวิจักขณ์ วงค์น้อย</p>
+        <p>นิสิตสาขาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยศรีนครินทรวิโรฒ</p>
+        <p>            
+            <a href="httpshttps://github.com/KingJuay/html-lab-218.git" target="_blank" rel="noopener">GitHub Repository</a>
+        </p>
+    </footer>
+</body>
+
+</html>
